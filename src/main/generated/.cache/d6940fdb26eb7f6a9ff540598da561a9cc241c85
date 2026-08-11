@@ -1,0 +1,3 @@
+// 26.1.2	-999999999-01-01T00:00:00	Magic/Tags for minecraft:block
+4b74cc70ec7d64ed13b717e220bada47d91b22d7 data/minecraft/tags/block/mineable/pickaxe.json
+4b74cc70ec7d64ed13b717e220bada47d91b22d7 data/minecraft/tags/block/needs_iron_tool.json

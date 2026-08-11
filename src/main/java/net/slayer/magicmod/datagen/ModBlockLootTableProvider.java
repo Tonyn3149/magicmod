@@ -1,0 +1,19 @@
+package net.slayer.magicmod.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootSubProvider;
+import net.minecraft.core.HolderLookup;
+import net.slayer.magicmod.block.ModBlocks;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
+    public ModBlockLootTableProvider(FabricPackOutput packOutput, CompletableFuture<HolderLookup.Provider> registriesFuture) {
+        super(packOutput, registriesFuture);
+    }
+
+    @Override
+    public void generate() {
+        dropSelf(ModBlocks.VOIDSTONE_BLOCK);
+    }
+}

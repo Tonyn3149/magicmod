@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "magic",
+  "key": {
+    "R": "magicmod:rawvoidstone"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "magicmod:rawvoidstone_block"
+  }
+}
